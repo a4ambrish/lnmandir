@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Home
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card >
+      <ion-img src="/assets/images/mandir_front.JPG"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Get Started</ion-card-subtitle>
+        <ion-card-title text-wrap>Welcome to Lakshmi Narayan Mandir</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p >
+          Lakshmi Narayan Mandir is an ancient Hindu temple dedicated to Bhagwan Shri Lakshmi-Narayan (Shri Hari). The temple is located in the proximity of B-2 &amp; B-3 Block, Keshav Puram, Delhi, India. 
+
+          The upper level of the temple has the idol of Lakshmi-Narayan with the idol of Shri Ganesha, Hanuman, Maa Durga, Ram Parivaar, Radhey-Krishna, Shiv Parivaar, Maa Santoshi Mata, Maa Saraswati, Sai Baba. There are idols of Shiva-Linga, Shani &amp; Khatu-Shyam at the same level. At the ground level, the Satsang-Bhawan is available where people perform Puja. There is also a mesmersing shiv mandir alongside for performing Shiv puja in the adjoining area at the upper level itself.
+
+        </p>
+      </ion-card-content>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Resources</ion-label>
+      </ion-list-header>
+      <ion-item [routerLink]="['/book']"  >
+        <ion-icon slot="start" color="medium" name="book" ios="ios-book" md="md-book"></ion-icon>
+        <ion-label>Library</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" name="md-home" ios="ios-home" md="md-home"></ion-icon>
+        <ion-label>Book Hall</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" ios="ios-contacts" md="md-contacts"></ion-icon>
+        <ion-label>Karya-Karini Soochi (List Of Members)</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon slot="start" color="medium" name="color-fill" ios="ios-call" md="md-call"></ion-icon>
+        <ion-label>Support Team</ion-label>
+      </ion-item>
+    </ion-list>
+</ion-content>
